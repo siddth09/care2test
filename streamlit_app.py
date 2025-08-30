@@ -6,7 +6,7 @@ st.set_page_config(page_title="Care2Test Demo", layout="wide")
 st.title("💊 Care2Test — Requirement → TestCase Prototype")
 
 st.sidebar.header("Backend")
-api_base = st.sidebar.text_input("FastAPI URL", value="http://127.0.0.1:8000")
+api_base = st.sidebar.text_input("FastAPI URL", value="https://care2test-be.onrender.com")
 
 st.markdown("Enter one or more **healthcare requirements** (one per line).")
 
